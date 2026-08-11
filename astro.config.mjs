@@ -35,6 +35,14 @@ export default defineConfig({
 				},
 			],
       		plugins: [starlightBlog()],
+			lastUpdated: true,
+			favicon: '/favicon.png',
+			editLink: {
+				baseUrl: 'https://github.com/Meowjay1110/syrinx-home/edit/master/'
+			},
+			components: {
+				Footer: './src/components/NewFooter.astro'
+			}
 		}),
 	],
 });
