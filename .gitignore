@@ -19,3 +19,7 @@ pnpm-debug.log*
 
 # macOS-specific files
 .DS_Store
+
+# Vault CMS / Obsidian
+.obsidian/
+src/content/_bases/Home.base
