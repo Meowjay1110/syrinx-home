@@ -1,26 +1,40 @@
 // @ts-check
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
+import starlightBlog from 'starlight-blog';
 
 // https://astro.build/config
 export default defineConfig({
 	integrations: [
 		starlight({
-			title: 'My Docs',
-			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/withastro/starlight' }],
-			sidebar: [
-				{
-					label: 'Guides',
-					items: [
-						// Each item here is one entry in the navigation menu.
-						{ label: 'Example Guide', slug: 'guides/example' },
-					],
+			title: '脊髓空洞症之家',
+			social: [
+				{ 
+					icon: 'github', 
+					label: 'GitHub', 
+					href: 'https://github.com/Meowjay1110/syrinx-home' 
 				},
 				{
-					label: 'Reference',
+					icon: 'email',
+					label: 'Email',
+					href: 'mailto:syrinx@meowjay.cc'
+				}
+			],
+			sidebar: [
+				{
+					label: '指引',
+					items: [{ autogenerate: { directory: 'guides' } }],
+				},
+				{
+					label: '经验',
+					items: [{ autogenerate: { directory: 'experiences' } }],
+				},
+				{
+					label: '参考',
 					items: [{ autogenerate: { directory: 'reference' } }],
 				},
 			],
+      		plugins: [starlightBlog()],
 		}),
 	],
 });

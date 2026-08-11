@@ -1,40 +1,33 @@
 ---
-title: Welcome to Starlight
-description: Get started building your docs site with Starlight.
+title: 欢迎
+description: 我们在这里分享、交换有关脊髓空洞症的一切。
 template: splash # Remove or comment out this line to display the site sidebar on this page.
 hero:
-  tagline: Congrats on setting up a new Starlight project!
+  tagline: 我们在这里分享、交换有关脊髓空洞症的一切。
   image:
-    file: ../../assets/houston.webp
+    file: ../../assets/logo.png
   actions:
-    - text: Example Guide
-      link: /guides/example/
+    - text: 开始
+      link: /guides/get-started/
       icon: right-arrow
-    - text: Read the Starlight docs
-      link: https://starlight.astro.build
-      icon: external
-      variant: minimal
 ---
 
 import { Card, CardGrid } from '@astrojs/starlight/components';
 
-## Next steps
-
 <CardGrid stagger>
-	<Card title="Update content" icon="pencil">
-		Edit `src/content/docs/index.mdx` to see this page change.
+	<Card title="了解脊髓空洞症" icon="open-book">
+		从基础知识开始，了解脊髓空洞症的成因、症状与常见治疗方式。
 	</Card>
-	<Card title="Change page layout" icon="document">
-		Delete `template: splash` in `src/content/docs/index.mdx` to display a
-		sidebar on this page.
+	<Card title="家属经验分享" icon="information">
+		阅读其他病友家属记录的真实陪伴经历，少走一些弯路。
 	</Card>
-	<Card title="Add new content" icon="add-document">
-		Add Markdown or MDX files to `src/content/docs` to create new pages.
+	<Card title="资源整理" icon="document">
+		医院、医生、检查项目、康复渠道等实用信息汇总，持续更新中。
 	</Card>
-	<Card title="Configure your site" icon="setting">
-		Edit your `sidebar` and other config in `astro.config.mjs`.
+	<Card title="加入互助社群" icon="comment">
+		和同样在经历这条路的家属交流，互相支持、互相答疑。
 	</Card>
-	<Card title="Read the docs" icon="open-book">
-		Learn more in [the Starlight Docs](https://starlight.astro.build/).
+	<Card title="常见问题" icon="question-circle">
+		整理了家属们最常问到的问题，帮你快速找到方向。
 	</Card>
 </CardGrid>
