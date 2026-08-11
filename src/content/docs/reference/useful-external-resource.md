@@ -12,3 +12,5 @@ description: 常用的外部资源。
 [**默沙东诊疗手册**](https://www.msdmanuals.cn/)：知名药企出资、承诺独立运作的医学百科全书，有大众版和医学专业人士版。自带中文翻译，质量还可以。部分内容可能对中国国情的适应性较差。
 
 [**妙佑医疗国际**](https://www.mayoclinic.org/zh-hans/diseases-conditions/)：知名医疗机构 Mayo Clinic 的科普网站，大部分内容都有中文。部分内容可能对中国国情的适应性较差。
+
+_待补充_
