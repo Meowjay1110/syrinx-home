@@ -17,7 +17,7 @@ export default defineConfig({
 				{
 					icon: 'email',
 					label: 'Email',
-					href: 'mailto:syrinx@meowjay.cc'
+					href: 'mailto:contact@syrinxhome.com'
 				}
 			],
 			sidebar: [

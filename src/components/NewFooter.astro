@@ -8,10 +8,10 @@ const path = Astro.locals.starlightRoute.id
 
 {
     isBlogHomepage ? (
-       <Default><slot /></Default> 
+        <Default><slot /></Default> 
     ) : (
         <Default><slot /></Default>
 
-        <Comments envId={'https://syrinx-comment.meowjay.cc'} path={path} />
+        <Comments envId={'https://comment.syrinxhome.com'} path={path} />
     )
 }
