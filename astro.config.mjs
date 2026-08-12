@@ -5,6 +5,7 @@ import starlightBlog from 'starlight-blog';
 
 // https://astro.build/config
 export default defineConfig({
+	site: 'https://syrinxhome.com',
 	integrations: [
 		starlight({
 			title: '脊髓空洞症之家',
@@ -17,7 +18,7 @@ export default defineConfig({
 				{
 					icon: 'email',
 					label: 'Email',
-					href: 'mailto:syrinx@meowjay.cc'
+					href: 'mailto:contact@syrinxhome.com'
 				}
 			],
 			sidebar: [
